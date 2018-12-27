@@ -63,7 +63,7 @@ while blur_pass != True:
 	os.remove("buffer-frame.png")
 
 # Instructions upon completion (, i.e. mark camera lens position or glue camera-lens assembly in place)
-print ("Do X, Y, and/or Z as the camera has now been verified. Tests")
+print ("Do X, Y, and/or Z as the camera has now been verified. Tests2213213")
 
 
 camera.release()
