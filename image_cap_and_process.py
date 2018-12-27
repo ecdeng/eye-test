@@ -16,7 +16,9 @@ blur_pass = False
 # threshold for var of lap--to be tuned based on image capture conditions and requirements
 thres = 5
 
-print("Starting camera blurriness test...")
+cam_id = input("Enter camera ID:")
+print("Starting camera blurriness test for camera",cam_id,"...")
+
 
 while blur_pass != True:
 	ret, frame = camera.read()	
